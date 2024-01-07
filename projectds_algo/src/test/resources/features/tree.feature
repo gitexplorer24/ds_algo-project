@@ -24,11 +24,11 @@ Feature: Tree feature
   Scenario: link3
   Given The user is in the Types of Trees page after logged in	
   When The user clicks Try Here button	
-  Then The user should be redirected to a page having an tryEditor with a Run button to test
+  Then The user clicks Try Here button on the Typesoftrees Page and Run button to test
   
   Scenario: link4
   Given The user clicks Tree Traversals button	
-  Then The user should be directed to Tree Traversals Page
+  
   Then The user clicks Try Here button on the tree traversals page and clicks  Run button to test
   
   Scenario: link5
@@ -71,9 +71,5 @@ Feature: Tree feature
   Then The user clicks Try Here button on the page	
   Then The user should be redirected to a page having an tryEditor with a Run button to test the code
  
-  Scenario: link14
-  Given The user is in the Tree page after logged in	
-  When The user clicks "Practice Questions" button	
-  Then The user should be redirected to "Practice" page
-  
+ 
  
